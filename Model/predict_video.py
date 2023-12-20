@@ -4,10 +4,10 @@ import cv2
 import json
 
 # Input video file path
-video_path = 'videos/HBO.mp4'
+video_path = 'videos/brands.mp4'
 
 # Output video file path
-video_path_out = 'videos/HBO_out.mp4'
+video_path_out = 'videos/brands_out.mp4'
 
 # Open the video file for reading
 cap = cv2.VideoCapture(video_path)
@@ -20,7 +20,7 @@ H, W, _ = frame.shape
 out = cv2.VideoWriter(video_path_out, cv2.VideoWriter_fourcc(*'MP4V'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
 
 # Path to the pre-trained YOLO model
-model_path = 'best.pt'
+model_path = 'best2.pt'
 
 # Load the pre-trained YOLO model
 model = YOLO(model_path)  # load a custom model
