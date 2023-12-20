@@ -20,7 +20,7 @@ H, W, _ = frame.shape
 out = cv2.VideoWriter(video_path_out, cv2.VideoWriter_fourcc(*'MP4V'), int(cap.get(cv2.CAP_PROP_FPS)), (W, H))
 
 # Path to the pre-trained YOLO model
-model_path = 'best2.pt'
+model_path = 'best.pt'
 
 # Load the pre-trained YOLO model
 model = YOLO(model_path)  # load a custom model
