@@ -1,10 +1,8 @@
 # Brand Recognition Tool
 
-<p align="center">
-  <a href="https://youtu.be/5EVDUKvmI_E">
-    <img src="https://img.youtube.com/vi/5EVDUKvmI_E/0.jpg" alt="Project Demo">
-  </a>
-</p>
+<div align="center">
+  [![Demo del Proyecto](https://img.youtube.com/vi/5EVDUKvmI_E/0.jpg)](https://youtu.be/5EVDUKvmI_E)
+</div>
 
 ---
 
