@@ -1,8 +1,8 @@
 # Brand Recognition Tool
 
-<p align="center">
+<div align="center">
 [![Project Demo](https://img.youtube.com/vi/5EVDUKvmI_E/0.jpg)](https://youtu.be/5EVDUKvmI_E)
-</p>
+</div>
 
 ---
 
